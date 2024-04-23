@@ -16,7 +16,8 @@
 1. Clone this repo
 
 ```console
-git clone ```
+git clone git@github.com:saniodev/nlp-houses.git
+```
 
 2. Create a Python venv
 
