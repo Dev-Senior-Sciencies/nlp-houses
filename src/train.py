@@ -22,9 +22,10 @@ def main():
     # Load data
     data_path = os.path.join(file_path, "..", "data", "Real_Estate_Sales_2001-2021_GL.csv")
     df = pd.read_csv(data_path)
+    heard = df.head(15);
 
     # Train model
-    train(df, conf["parameters"])
+    train(heard, conf["parameters"])
 
 
 if __name__ == "__main__":
