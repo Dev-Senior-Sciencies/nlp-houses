@@ -7,6 +7,8 @@ from lightgbm import LGBMClassifier
 from omegaconf import OmegaConf
 import mlflow
 
+X_train, X_test, y_train, y_test = train_test_split(encoded_data, df['animal'], test_size=0.2, random_state=42)
+
 # Path to train.py
 file_path = os.path.dirname(__file__)
 
